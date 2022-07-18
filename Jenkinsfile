@@ -21,6 +21,7 @@ pipeline {
             steps {
                 echo 'Test-Test'
                 echo "${NAME}"
+                sh 'echo `expr 2 + 2`'
             }
         }
         
